@@ -6,6 +6,7 @@ using UnityEngine;
 public class PlayerMovment : MonoBehaviour
 {
     public float movementSpeed;
+    public int slopeSpeed = 10;
     public Rigidbody2D rb;
 
     public float jumpForce = 20f;
@@ -45,9 +46,10 @@ public class PlayerMovment : MonoBehaviour
 
         rb.velocity = movement;
     }
-
+    
     public bool isGrounded()
     {
+        // Check for collision with objects in Ground layer
         Collider2D groundCheck = Physics2D.OverlapCircle(feet.position, 0.5f, groundLayers);
         
         if (groundCheck != null)
