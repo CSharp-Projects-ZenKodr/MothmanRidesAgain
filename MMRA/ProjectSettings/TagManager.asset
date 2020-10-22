@@ -5,7 +5,6 @@ TagManager:
   serializedVersion: 2
   tags:
   - Terrain
-  - Spike
   layers:
   - Default
   - TransparentFX
@@ -19,7 +18,7 @@ TagManager:
   - CameraBounds
   - Objects
   - Player
-  - Spikes
+  - 
   - 
   - 
   - 

@@ -6,15 +6,15 @@ using UnityEngine;
 public class PlayerMovment : MonoBehaviour
 {
     public float movementSpeed;
-    public float maxSpeed = 30;
     public int slopeSpeed = 10;
     public Rigidbody2D rb;
 
     public Animator anim;
 
-    public float jumpForce = 20.0f;
+    public float jumpForce = 20f;
     public Transform feet;
     public LayerMask groundLayers;
+    
 
     private float inputX; // Movement on the x-axis
 
@@ -45,12 +45,8 @@ public class PlayerMovment : MonoBehaviour
     private void FixedUpdate()
     {
         // Add movement vector
-       // if(isGrounded())
-            if (rb.velocity.magnitude < maxSpeed)
-            {
-                    Vector2 mx = new Vector2(inputX * movementSpeed, 0);
-                    rb.AddForce(mx , ForceMode2D.Force);
-            }
+        Vector2 mx = new Vector2(inputX * movementSpeed, 0);
+        rb.AddForce(mx);
 
     }
 
