@@ -45,6 +45,12 @@ public class PlayerMovment : MonoBehaviour
     private void FixedUpdate()
     {
         // Add movement vector
+       /* if (isGrounded())
+        {
+            rb.gravityScale = 30;
+        }
+        else
+            rb.gravityScale = 10;*/
         Vector2 mx = new Vector2(inputX * movementSpeed, 0);
         rb.AddForce(mx);
 
@@ -53,6 +59,7 @@ public class PlayerMovment : MonoBehaviour
     private void jump()
     {
         // Add jump vector
+        //rb.gravityScale = 10;
         Vector2 my = new Vector2(0, jumpForce);
         rb.AddForce(my, ForceMode2D.Impulse);
     }
