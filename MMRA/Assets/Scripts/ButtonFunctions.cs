@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class LoadScene : MonoBehaviour
+public class ButtonFunctions : MonoBehaviour
 {
     public void LoadSceneByIndex(int index)
     {
