@@ -6394,6 +6394,7 @@ GameObject:
   - component: {fileID: 1070264039}
   - component: {fileID: 1070264037}
   - component: {fileID: 1070264036}
+  - component: {fileID: 1070264038}
   m_Layer: 8
   m_Name: Rail
   m_TagString: Untagged
@@ -6408,7 +6409,7 @@ SurfaceEffector2D:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1070264035}
-  m_Enabled: 0
+  m_Enabled: 1
   m_UseColliderMask: 1
   m_ColliderMask:
     serializedVersion: 2
@@ -6430,7 +6431,7 @@ BoxCollider2D:
   m_Density: 1
   m_Material: {fileID: 6200000, guid: f3318127dc2b5ac4cb8bd0a73973a169, type: 2}
   m_IsTrigger: 0
-  m_UsedByEffector: 0
+  m_UsedByEffector: 1
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0.11}
   m_SpriteTilingProperty:
@@ -6445,6 +6446,18 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 2.98, y: 0.1}
   m_EdgeRadius: 0
+--- !u!114 &1070264038
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1070264035}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1361107eb58bb664caeab6ab954d70d9, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!4 &1070264039
 Transform:
   m_ObjectHideFlags: 0
