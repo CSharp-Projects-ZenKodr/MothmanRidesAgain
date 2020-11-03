@@ -10,9 +10,6 @@ public class LevelManager : MonoBehaviour
     public Transform respawnPoint;
     public GameObject playerPrefab;
 
-    public GameObject pausePanel;
-    private bool paused = false;
-
     public CinemachineVirtualCameraBase cam;
 
     private void Awake()
@@ -24,27 +21,5 @@ public class LevelManager : MonoBehaviour
     {
         GameObject player = Instantiate(playerPrefab, respawnPoint.position, Quaternion.identity);
         cam.Follow = player.transform;
-    }
-
-    public void Update()
-    {
-        if (Input.GetKeyDown(KeyCode.Escape))
-            TogglePause();
-    }
-
-    public void TogglePause()
-    {
-        if (!paused)
-        {
-            pausePanel.SetActive(true);
-            Time.timeScale = 0;
-            paused = true;
-        }
-        else
-        {
-            pausePanel.SetActive(false);
-            Time.timeScale = 1;
-            paused = false;
-        }
     }
 }
