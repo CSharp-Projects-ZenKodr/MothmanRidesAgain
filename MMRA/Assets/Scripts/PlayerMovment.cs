@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Security.Cryptography;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class PlayerMovment : MonoBehaviour
 {
@@ -10,18 +11,20 @@ public class PlayerMovment : MonoBehaviour
     public Rigidbody2D rb;
 
     public Animator anim;
+    private ScoreController scoreController;
 
     public float jumpForce = 20f;
     public Transform feet;
     public LayerMask groundLayers;
-    
+
+    private bool midTrick = false; // used to prevent multiple tricks midair
 
     private float inputX; // Movement on the x-axis
 
     // Start is called before the first frame update
     void Start()
     {
-
+        scoreController = GameObject.Find("ScoreDisplay").GetComponent<ScoreController>();
     }
 
     // Update is called once per frame
@@ -34,6 +37,13 @@ public class PlayerMovment : MonoBehaviour
             jump();
         }
 
+        else if (Input.GetButtonDown("Trick1") && isGrounded())
+        {
+            jump(true);
+            kickflip();
+        }
+
+        anim.SetBool("isTricking", midTrick);
         anim.SetBool("isGrounded", isGrounded());
 
         if (inputX > 0f)
@@ -56,11 +66,16 @@ public class PlayerMovment : MonoBehaviour
 
     }
 
-    private void jump()
+    private void jump(bool reducedForce = false)
     {
         // Add jump vector
         //rb.gravityScale = 10;
-        Vector2 my = new Vector2(0, jumpForce);
+        Vector2 my;
+        if (reducedForce)
+            my = new Vector2(0, jumpForce*.8f);
+        else
+            my = new Vector2(0, jumpForce);
+
         rb.AddForce(my, ForceMode2D.Impulse);
     }
 
@@ -77,5 +92,11 @@ public class PlayerMovment : MonoBehaviour
         {
             return false;
         }
+    }
+
+    private void kickflip()
+    {
+        scoreController.trick(100, "Kickflip + 100");
+        midTrick = true;
     }
 }
