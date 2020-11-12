@@ -42,7 +42,7 @@ public class PlayerMovment : MonoBehaviour
             jump(true);
             kickflip();
         }
-
+        anim.SetBool("isCrashed", isCrashed());
         anim.SetBool("isTricking", midTrick);
         anim.SetBool("isGrounded", isGrounded());
 
@@ -55,12 +55,6 @@ public class PlayerMovment : MonoBehaviour
     private void FixedUpdate()
     {
         // Add movement vector
-       /* if (isGrounded())
-        {
-            rb.gravityScale = 30;
-        }
-        else
-            rb.gravityScale = 10;*/
         Vector2 mx = new Vector2(inputX * movementSpeed, 0);
         rb.AddForce(mx);
 
@@ -98,5 +92,13 @@ public class PlayerMovment : MonoBehaviour
     {
         scoreController.trick(100, "Kickflip + 100");
         midTrick = true;
+    }
+
+    private bool isCrashed()
+    {
+        if (PlayerDeath.instance.crash == true)
+            return true;
+        else
+            return false;
     }
 }
