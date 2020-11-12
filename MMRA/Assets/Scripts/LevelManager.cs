@@ -24,6 +24,11 @@ public class LevelManager : MonoBehaviour
     {
         GameObject player = Instantiate(playerPrefab, respawnPoint.position, Quaternion.identity);
         cam.Follow = player.transform;
+
+        // Respawning sometimes disables different components, this fixes it:
+        player.GetComponentInChildren<PlayerMovment>().enabled = true;
+        player.GetComponentInChildren<Animator>().enabled = true;
+        player.GetComponentInChildren<CircleCollider2D>().enabled = true;
     }
 
     public void Update()
