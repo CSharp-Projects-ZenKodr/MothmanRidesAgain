@@ -1,7 +1,85 @@
 fileFormatVersion: 2
+<<<<<<< HEAD
 guid: ba0d0272d05ee3c4eae76cbf5a4edb2c
 TextureImporter:
   internalIDToNameTable: []
+=======
+guid: 5fb8b112d5b3b634cbd1ca738091c6a4
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 1717314908198444235
+    second: mothman_anims_2_0
+  - first:
+      213: -8571574999168307341
+    second: mothman_anims_2_1
+  - first:
+      213: -5880350771110468046
+    second: mothman_anims_2_2
+  - first:
+      213: -2158336374939399943
+    second: mothman_anims_2_3
+  - first:
+      213: 2615533270359863319
+    second: mothman_anims_2_4
+  - first:
+      213: 769747660838071764
+    second: mothman_anims_2_5
+  - first:
+      213: 3180946146205036292
+    second: mothman_anims_2_6
+  - first:
+      213: 3040524452704870685
+    second: mothman_anims_2_7
+  - first:
+      213: -3385441095991205729
+    second: mothman_anims_2_8
+  - first:
+      213: 6315062163029167139
+    second: mothman_anims_2_9
+  - first:
+      213: 3257478740664592131
+    second: mothman_anims_2_0
+  - first:
+      213: 3353955278414701876
+    second: mothman_anims_2_1
+  - first:
+      213: 8113151207603144475
+    second: mothman_anims_2_2
+  - first:
+      213: 8297420751744249800
+    second: mothman_anims_2_3
+  - first:
+      213: 1845343462777250098
+    second: mothman_anims_2_4
+  - first:
+      213: -2654536471295046335
+    second: mothman_anims_2_5
+  - first:
+      213: -2746065721086227728
+    second: mothman_anims_2_6
+  - first:
+      213: 7568604584048617962
+    second: mothman_anims_2_7
+  - first:
+      213: -2254766520281558946
+    second: mothman_anims_2_8
+  - first:
+      213: -4735985070383256043
+    second: mothman_anims_2_9
+  - first:
+      213: -149741914554008202
+    second: mothman_anims_2_10
+  - first:
+      213: 4342429279588220954
+    second: mothman_anims_2_11
+  - first:
+      213: -8982611354845824568
+    second: mothman_anims_2_12
+  - first:
+      213: 1703011327986079637
+    second: mothman_anims_2_13
+>>>>>>> 02ae724e5c740d5cdb891d62d90075a21d1bb8aa
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -41,11 +119,19 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
+<<<<<<< HEAD
   spriteMode: 1
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 9
   spritePivot: {x: 0.083333336, y: 0.125}
+=======
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+>>>>>>> 02ae724e5c740d5cdb891d62d90075a21d1bb8aa
   spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
@@ -73,9 +159,321 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+<<<<<<< HEAD
   spriteSheet:
     serializedVersion: 2
     sprites: []
+=======
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: mothman_anims_2_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 240
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 30723b0e7a3e43d20800000000000000
+      internalID: 3257478740664592131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mothman_anims_2_1
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 240
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 43564724e84ab8e20800000000000000
+      internalID: 3353955278414701876
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mothman_anims_2_2
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 240
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b17873ab904b79070800000000000000
+      internalID: 8113151207603144475
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mothman_anims_2_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 160
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8cfabab463c562370800000000000000
+      internalID: 8297420751744249800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mothman_anims_2_4
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 160
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2316d633a1afb9910800000000000000
+      internalID: 1845343462777250098
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mothman_anims_2_5
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 160
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 14dc329c421392bd0800000000000000
+      internalID: -2654536471295046335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mothman_anims_2_6
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 160
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0fa47c4a6c304e9d0800000000000000
+      internalID: -2746065721086227728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mothman_anims_2_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 80
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae96c9dd4c5190960800000000000000
+      internalID: 7568604584048617962
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mothman_anims_2_8
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 80
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e509c2bcbc575b0e0800000000000000
+      internalID: -2254766520281558946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mothman_anims_2_9
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 80
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 51ea04abba6664eb0800000000000000
+      internalID: -4735985070383256043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mothman_anims_2_10
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 80
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67d7507a5820cedf0800000000000000
+      internalID: -149741914554008202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mothman_anims_2_11
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 80
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a108c103c68634c30800000000000000
+      internalID: 4342429279588220954
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mothman_anims_2_12
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 80
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8c9360f809a575380800000000000000
+      internalID: -8982611354845824568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mothman_anims_2_13
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5979315a7cf42a710800000000000000
+      internalID: 1703011327986079637
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+>>>>>>> 02ae724e5c740d5cdb891d62d90075a21d1bb8aa
     outline: []
     physicsShape: []
     bones: []
