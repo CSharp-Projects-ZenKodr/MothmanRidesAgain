@@ -29,6 +29,8 @@ public class LevelManager : MonoBehaviour
         player.GetComponentInChildren<PlayerMovment>().enabled = true;
         player.GetComponentInChildren<Animator>().enabled = true;
         player.GetComponentInChildren<CircleCollider2D>().enabled = true;
+
+        PlayerDeath.instance.crash = false;
     }
 
     public void Update()
