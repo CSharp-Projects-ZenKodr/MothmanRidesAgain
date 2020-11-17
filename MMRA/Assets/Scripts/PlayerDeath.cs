@@ -22,6 +22,7 @@ public class PlayerDeath : MonoBehaviour
             //Makes Unity wait for the death animation to play before respawning
             yield return new WaitForSecondsRealtime(1f);
             Destroy(gameObject);
+            //LevelManager.instance.transform.position = LevelManager.instance.respawnPoint.transform.position;
             LevelManager.instance.Respawn();
         }
     }

@@ -19,7 +19,6 @@ public class TimeTracker : MonoBehaviour
         min = (int) (levelTime / 60);
         sec = (int) (levelTime % 60);
 
-        Debug.Log(min + ":" + sec);
         if (sec < 10)
             timeDisplay.text = (min + ":0" + sec);
         else
