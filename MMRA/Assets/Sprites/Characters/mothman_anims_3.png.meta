@@ -1,0 +1,562 @@
+fileFormatVersion: 2
+guid: e80f409647bf70f458009fe7f424e30d
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -123600460877813108
+    second: mothman_anims_3_0
+  - first:
+      213: 1640155886591295334
+    second: mothman_anims_3_1
+  - first:
+      213: 7404145132556228821
+    second: mothman_anims_3_2
+  - first:
+      213: 895038418916978565
+    second: mothman_anims_3_3
+  - first:
+      213: -7544113704079003692
+    second: mothman_anims_3_4
+  - first:
+      213: -5095703218223604208
+    second: mothman_anims_3_5
+  - first:
+      213: 110513558810699270
+    second: mothman_anims_3_6
+  - first:
+      213: 2952119155231392671
+    second: mothman_anims_3_7
+  - first:
+      213: -4239561306282414043
+    second: mothman_anims_3_8
+  - first:
+      213: 1889470808453351400
+    second: mothman_anims_3_9
+  - first:
+      213: -4623272842488149576
+    second: mothman_anims_3_10
+  - first:
+      213: -8151678645444166901
+    second: mothman_anims_3_11
+  - first:
+      213: -7072324959938214695
+    second: mothman_anims_3_12
+  - first:
+      213: -4894211977515266910
+    second: mothman_anims_3_13
+  - first:
+      213: -42196466334937893
+    second: mothman_anims_3_14
+  - first:
+      213: 2458629117690587990
+    second: mothman_anims_3_15
+  - first:
+      213: -3518623422406805749
+    second: mothman_anims_3_16
+  - first:
+      213: -8790262682708568881
+    second: mothman_anims_3_17
+  - first:
+      213: -5107270374494877303
+    second: mothman_anims_3_18
+  - first:
+      213: 928617427933079025
+    second: mothman_anims_3_19
+  - first:
+      213: -1595426573338557876
+    second: mothman_anims_3_20
+  - first:
+      213: -1879190382612320053
+    second: mothman_anims_3_21
+  - first:
+      213: -1576357744119668363
+    second: mothman_anims_3_22
+  - first:
+      213: -7662794819755026415
+    second: mothman_anims_3_23
+  - first:
+      213: -2945539331898792115
+    second: mothman_anims_3_24
+  - first:
+      213: -7440005871152020737
+    second: mothman_anims_3_25
+  - first:
+      213: -1194291694612521868
+    second: mothman_anims_3_26
+  - first:
+      213: -4798142660710527090
+    second: mothman_anims_3_27
+  - first:
+      213: -9099601316200026491
+    second: mothman_anims_3_28
+  - first:
+      213: -123596341490128109
+    second: mothman_anims_3_29
+  - first:
+      213: -7967460680420169788
+    second: mothman_anims_3_30
+  - first:
+      213: 4867021310901283554
+    second: mothman_anims_3_31
+  - first:
+      213: -5558523717484189024
+    second: mothman_anims_3_32
+  - first:
+      213: 6549018870903433152
+    second: mothman_anims_3_33
+  - first:
+      213: -7570567546019822615
+    second: mothman_anims_3_34
+  - first:
+      213: 7882141780965742607
+    second: mothman_anims_3_35
+  - first:
+      213: 3098035489514414401
+    second: mothman_anims_3_36
+  - first:
+      213: 9023027878986916503
+    second: mothman_anims_3_37
+  - first:
+      213: -34019978003624446
+    second: mothman_anims_3_38
+  - first:
+      213: -3809191274388684705
+    second: mothman_anims_3_39
+  - first:
+      213: 4954941362706353557
+    second: mothman_anims_3_40
+  - first:
+      213: -683881200409521831
+    second: mothman_anims_3_41
+  - first:
+      213: -5696608170829870250
+    second: mothman_anims_3_42
+  - first:
+      213: -2776620778436987219
+    second: mothman_anims_3_43
+  - first:
+      213: -4729283306036940902
+    second: mothman_anims_3_44
+  - first:
+      213: 4217353324933101297
+    second: mothman_anims_3_45
+  - first:
+      213: 1428777617722519072
+    second: mothman_anims_3_46
+  - first:
+      213: -6685223036960128468
+    second: mothman_anims_3_47
+  - first:
+      213: 7456569894424811464
+    second: mothman_anims_3_48
+  - first:
+      213: 3263799879856587569
+    second: mothman_anims_3_49
+  - first:
+      213: 3152680910242624469
+    second: mothman_anims_3_50
+  - first:
+      213: 3686626027685921232
+    second: mothman_anims_3_51
+  - first:
+      213: -7925110984511708215
+    second: mothman_anims_3_52
+  - first:
+      213: 6201107437270790171
+    second: mothman_anims_3_53
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: mothman_anims_3_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 240
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8aad432902e84ef0800000000000000
+      internalID: -123600460877813108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mothman_anims_3_1
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 240
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 66f3a84c61103c610800000000000000
+      internalID: 1640155886591295334
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mothman_anims_3_2
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 240
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d8937be4cec0c660800000000000000
+      internalID: 7404145132556228821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mothman_anims_3_3
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 160
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58fafdb23b0db6c00800000000000000
+      internalID: 895038418916978565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mothman_anims_3_4
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 160
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4dfe63b7e8ced4790800000000000000
+      internalID: -7544113704079003692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mothman_anims_3_5
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 160
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01e97f4dbec6849b0800000000000000
+      internalID: -5095703218223604208
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mothman_anims_3_6
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 160
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 606a6c70f7f988100800000000000000
+      internalID: 110513558810699270
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mothman_anims_3_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 80
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f93813e0bb808f820800000000000000
+      internalID: 2952119155231392671
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mothman_anims_3_8
+      rect:
+        serializedVersion: 2
+        x: 80
+        y: 80
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 520bb8f347d0a25c0800000000000000
+      internalID: -4239561306282414043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mothman_anims_3_9
+      rect:
+        serializedVersion: 2
+        x: 160
+        y: 80
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8e7055f70bfb83a10800000000000000
+      internalID: 1889470808453351400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mothman_anims_3_10
+      rect:
+        serializedVersion: 2
+        x: 240
+        y: 80
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b988cb48d5d6dfb0800000000000000
+      internalID: -4623272842488149576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mothman_anims_3_11
+      rect:
+        serializedVersion: 2
+        x: 320
+        y: 80
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0bb92f167b6fde80800000000000000
+      internalID: -8151678645444166901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mothman_anims_3_12
+      rect:
+        serializedVersion: 2
+        x: 400
+        y: 80
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9d401c27bed0add90800000000000000
+      internalID: -7072324959938214695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mothman_anims_3_13
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 80
+        height: 80
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ac8db81324441cb0800000000000000
+      internalID: -4894211977515266910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

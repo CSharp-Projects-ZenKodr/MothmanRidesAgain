@@ -41,7 +41,7 @@ public class EnemyPatrol : MonoBehaviour
         else
         {
             isfacingRight = !isfacingRight;
-            transform.localScale = new Vector3(-transform.localScale.x, 1f, 1f);
+            transform.localScale = new Vector3(-transform.localScale.x, 2f, 1f);
         }
     }
 }

@@ -4,28 +4,28 @@ using UnityEngine;
 
 public class LineOfSight : MonoBehaviour
 {
-    public Transform target;
     // Start is called before the first frame update
     void Start()
     {
         
     }
 
-    // Update is called once per frame
-    void Update()
+    void OnTriggerEnter2D(Collider2D other)
     {
-
-        Vector3 targetDir = target.position - transform.position;
-        Vector3 forward = transform.forward;
-        float angle = Vector3.Angle(targetDir - transform.position, transform.forward);
-        var dist = Vector3.Distance(target.position, transform.position);
-        if (angle < 22.5 && dist < 90)
+        if(other.gameObject.tag == "Player")
         {
             Debug.Log("Detected");
+
         }
-        else
-        {
-            Debug.Log("Not Detected");
-        }
+
     }
+
+    // Update is called once per frame
+    void Update()
+    {  
+    
+
+    }
+
+
 }
