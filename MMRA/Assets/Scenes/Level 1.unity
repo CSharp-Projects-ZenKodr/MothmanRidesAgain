@@ -464,7 +464,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cam: {fileID: 911781689}
-  relativeMove: 0.3
+  relativeMove: 0.06
   lockY: 1
 --- !u!483693784 &169421761
 TilemapRenderer:
@@ -811,24 +811,6 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
---- !u!1 &474062849 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 6454116341405093313, guid: 9a13536f6a7bcf449aa7d376a07b5225, type: 3}
-  m_PrefabInstance: {fileID: 6454116340068605251}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &474062856
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 474062849}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 880a8f9e3308cce4ea388a9da64d1069, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  timeActive: 0.7
 --- !u!1 &496843300 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 6503406393168082485, guid: aa61b36027361d04d8f4cc43af900b6d, type: 3}
@@ -10259,7 +10241,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cam: {fileID: 911781689}
-  relativeMove: 0.2
+  relativeMove: 0.04
   lockY: 1
 --- !u!483693784 &1039771540
 TilemapRenderer:
@@ -10697,7 +10679,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cam: {fileID: 911781689}
-  relativeMove: 0.4
+  relativeMove: 0.08
   lockY: 1
 --- !u!483693784 &1122722499
 TilemapRenderer:
@@ -13016,18 +12998,6 @@ PrefabInstance:
     - target: {fileID: 6454116341405093313, guid: 9a13536f6a7bcf449aa7d376a07b5225, type: 3}
       propertyPath: m_Name
       value: Player
-      objectReference: {fileID: 0}
-    - target: {fileID: 6454116341405093316, guid: 9a13536f6a7bcf449aa7d376a07b5225, type: 3}
-      propertyPath: m_LinearDrag
-      value: 0.1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6454116341405093317, guid: 9a13536f6a7bcf449aa7d376a07b5225, type: 3}
-      propertyPath: movementSpeed
-      value: 20
-      objectReference: {fileID: 0}
-    - target: {fileID: 6454116341405093323, guid: 9a13536f6a7bcf449aa7d376a07b5225, type: 3}
-      propertyPath: m_SortingOrder
-      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9a13536f6a7bcf449aa7d376a07b5225, type: 3}

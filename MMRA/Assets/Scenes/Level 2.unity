@@ -416,7 +416,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cam: {fileID: 911781689}
-  relativeMove: 0.4
+  relativeMove: 0.08
   lockY: 1
 --- !u!483693784 &267120734
 TilemapRenderer:
@@ -9313,7 +9313,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cam: {fileID: 911781689}
-  relativeMove: 0.3
+  relativeMove: 0.06
   lockY: 1
 --- !u!483693784 &364439338
 TilemapRenderer:
@@ -49520,7 +49520,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   cam: {fileID: 911781689}
-  relativeMove: 0.2
+  relativeMove: 0.04
   lockY: 1
 --- !u!483693784 &1130324077
 TilemapRenderer:
