@@ -1395,7 +1395,7 @@ GameObject:
   - component: {fileID: 709011531}
   m_Layer: 8
   m_Name: WorldGround
-  m_TagString: Untagged
+  m_TagString: Terrain
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -10573,7 +10573,7 @@ GameObject:
   - component: {fileID: 1107926014}
   - component: {fileID: 1107926012}
   m_Layer: 0
-  m_Name: GameObject
+  m_Name: SightCone
   m_TagString: Enemy
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -10605,6 +10605,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 17200c9f587b3d841849fa34515a8262, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  player: {fileID: 1657392599}
 --- !u!60 &1107926014
 PolygonCollider2D:
   m_ObjectHideFlags: 0
