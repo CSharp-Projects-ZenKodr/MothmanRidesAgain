@@ -4,28 +4,39 @@ using UnityEngine;
 
 public class LineOfSight : MonoBehaviour
 {
+    RaycastHit2D hit;
+    public Transform player;
     // Start is called before the first frame update
     void Start()
     {
         
     }
 
+   
+
+    // Update is called once per frame
+    void Update()
+    {
+        hit = Physics2D.Raycast(transform.position, player.position - transform.position);
+    }
+
     void OnTriggerEnter2D(Collider2D other)
     {
-        if(other.gameObject.tag == "Player")
+        if (other.gameObject.tag == ("Player"))
         {
-            Debug.Log("Detected");
+            if (hit.collider == other)
+            {
+
+                Debug.Log("Clear Line of Sight");
+            }
+            else
+            {
+                Debug.Log("Wall Intervening");
+            }
+
+
 
         }
 
     }
-
-    // Update is called once per frame
-    void Update()
-    {  
-    
-
-    }
-
-
 }
