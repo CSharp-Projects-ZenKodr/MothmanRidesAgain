@@ -5,14 +5,19 @@ using UnityEngine.SceneManagement;
 
 public class LevelChange : MonoBehaviour
 {
-    public int index;
+    private LevelManager levelManager;
 
-   void OnTriggerEnter2D(Collider2D other)
+    private void Start()
     {
+        levelManager = GameObject.Find("LevelManager").GetComponent<LevelManager>();
+    }
+
+    void OnTriggerEnter2D(Collider2D other)
+    {
+        // player enters stage clear trigger
         if(other.CompareTag("Player"))
         {
-            //Loads scene using its index in Build Settings
-            SceneManager.LoadScene(index);
+            levelManager.ClearStage();
         }
     }
 }

@@ -5,26 +5,35 @@ using UnityEngine.UI;
 
 public class TimeTracker : MonoBehaviour
 {
-    public float levelTime = 180;
+    private float levelTime;
     private Text timeDisplay;
     private int min, sec;
+
+    private LevelManager levelManager;
+
     // Start is called before the first frame update
     void Start()
     {
+        levelManager = GameObject.Find("LevelManager").GetComponent<LevelManager>();
         timeDisplay = GetComponent<Text>();
     }
 
     private void Update()
     {
-        min = (int) (levelTime / 60);
-        sec = (int) (levelTime % 60);
+        levelTime = levelManager.GetTime();
+
+        timeDisplay.text = GetTimeText(levelTime);
+    }
+
+    public static string GetTimeText(float time)
+    {
+        int min = (int)(time / 60);
+        int sec = (int)(time % 60);
 
         if (sec < 10)
-            timeDisplay.text = (min + ":0" + sec);
+            return (min + ":0" + sec);
         else
-            timeDisplay.text = (min + ":" + sec);
-
-        levelTime -= Time.deltaTime;
+            return (min + ":" + sec);
     }
 
 }

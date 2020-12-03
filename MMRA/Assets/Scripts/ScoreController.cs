@@ -5,6 +5,8 @@ using UnityEngine.UI;
 
 public class ScoreController : MonoBehaviour
 {
+    private LevelManager levelManager;
+
     private Text scoreDisplayText;
     private Text trickDisplayText;
     private int currentScore = 0;
@@ -18,18 +20,15 @@ public class ScoreController : MonoBehaviour
     {
         scoreDisplayText = GetComponent<Text>();
         trickDisplayText = GameObject.Find("TrickDisplay").GetComponent<Text>();
+
+        levelManager = GameObject.Find("LevelManager").GetComponent<LevelManager>();
     }
 
     private void Update()
     {
-        if (currentScore == 0)
-            scoreDisplayText.text = "0000";
-        else if (currentScore < 100)
-            scoreDisplayText.text = "00" + currentScore;
-        else if (currentScore < 1000)
-            scoreDisplayText.text = "0" + currentScore;
-        else
-            scoreDisplayText.text = currentScore.ToString();
+        currentScore = levelManager.GetScore();
+
+        scoreDisplayText.text = GetScoreText(currentScore);
 
         if (displayingTrick)
         {
@@ -45,10 +44,23 @@ public class ScoreController : MonoBehaviour
 
     public void trick(int score, string text)
     {
-        currentScore += score;
+        levelManager.AddToScore(score);
+
         trickDisplayText.text = text;
         displayingTrick = true;
         timeDisplayed = 0;
+    }
+
+    public static string GetScoreText(int score)
+    {
+        if (score == 0)
+            return "0000";
+        else if (score < 100)
+            return "00" + score;
+        else if (score < 1000)
+            return "0" + score;
+        else
+            return score.ToString();
     }
 
     IEnumerable displayDelay()
