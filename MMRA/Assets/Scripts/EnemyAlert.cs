@@ -48,7 +48,7 @@ public class EnemyAlert : MonoBehaviour
         if(detectionLevel < 100)
         {
 
-            detectionLevel += 0.15;
+            detectionLevel += 0.1;
 
         }
     }
