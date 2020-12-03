@@ -51,7 +51,7 @@ public class PlayerMovment : MonoBehaviour
                     shortHop = true;
                     isTricking = true;
                     anim.SetTrigger("doKickflip");
-                    scoreController.trick(120, "Kickflip + 120");
+                    scoreController.trick(120, "Kickflip");
                 }
                 // does player intend to 360 flip (J, K, L pressed once each)
                 if (inputController.getKey(KeyCode.J) == 1 && inputController.getKey(KeyCode.K) == 1 && inputController.getKey(KeyCode.L) == 1)
@@ -59,7 +59,7 @@ public class PlayerMovment : MonoBehaviour
                     shortHop = true;
                     isTricking = true;
                     anim.SetTrigger("do360Flip");
-                    scoreController.trick(360, "360 Flip + 360");
+                    scoreController.trick(360, "360 Flip");
                 }
 
                 if (isTricking)
