@@ -6,6 +6,7 @@ public class LineOfSight : MonoBehaviour
 {
     RaycastHit2D hit;
     public Transform player;
+    public EnemyAlert alert;
     // Start is called before the first frame update
     void Start()
     {
@@ -26,11 +27,12 @@ public class LineOfSight : MonoBehaviour
         {
             if (hit.collider == other)
             {
-
+                alert.detected = true;
                 Debug.Log("Clear Line of Sight");
             }
             else
             {
+                alert.detected = false;
                 Debug.Log("Wall Intervening");
             }
 
@@ -38,5 +40,12 @@ public class LineOfSight : MonoBehaviour
 
         }
 
+    }
+    void OnTriggerExit2D(Collider2D other)
+    {
+        if(other.gameObject.tag == ("Player"))
+        {
+            alert.detected = false;
+        }
     }
 }

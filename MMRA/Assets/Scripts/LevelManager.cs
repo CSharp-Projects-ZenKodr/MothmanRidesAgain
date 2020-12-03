@@ -66,7 +66,7 @@ public class LevelManager : MonoBehaviour
         }
         else
         {
-            if (Time.timeScale != 1)
+            if (Time.timeScale != 1 && paused == false && failPanel.activeSelf == false)
                 Time.timeScale = 1;
 
             // advance time
@@ -76,8 +76,7 @@ public class LevelManager : MonoBehaviour
         // time runs out
         if (time <= 0)
         {
-            Time.timeScale = 0;
-            failPanel.SetActive(true);
+            FailState();
         }
         
     }
@@ -126,5 +125,11 @@ public class LevelManager : MonoBehaviour
     public float GetTime()
     {
         return time;
+    }
+
+    public void FailState()
+    {
+        Time.timeScale = 0;
+        failPanel.SetActive(true);
     }
 }
