@@ -29,6 +29,7 @@ public class LineOfSight : MonoBehaviour
             {
 
                 Debug.Log("Clear Line of Sight");
+                Debug.Log(alert.detectionLevel);
                 alert.detected = true;
             }
             else
