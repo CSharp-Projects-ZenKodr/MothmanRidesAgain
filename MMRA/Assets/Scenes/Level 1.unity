@@ -2315,7 +2315,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
   m_AnchoredPosition: {x: 0, y: 90}
-  m_SizeDelta: {x: 250, y: 30}
+  m_SizeDelta: {x: 500, y: 50}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &540384275
 MonoBehaviour:
@@ -16361,7 +16361,7 @@ MonoBehaviour:
   pausePanel: {fileID: 851486093}
   clearPanel: {fileID: 205340412}
   failPanel: {fileID: 2084555198}
-  TimeToBeat: 10
+  TimeToBeat: 120
   cam: {fileID: 911781688}
 --- !u!1 &2020018911
 GameObject:
