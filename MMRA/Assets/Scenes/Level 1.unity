@@ -2315,7 +2315,7 @@ RectTransform:
   m_AnchorMin: {x: 0.5, y: 0}
   m_AnchorMax: {x: 0.5, y: 0}
   m_AnchoredPosition: {x: 0, y: 90}
-  m_SizeDelta: {x: 250, y: 30}
+  m_SizeDelta: {x: 500, y: 80}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &540384275
 MonoBehaviour:
@@ -16806,5 +16806,6 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    m_RemovedComponents:
+    - {fileID: 474062856, guid: 9a13536f6a7bcf449aa7d376a07b5225, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 9a13536f6a7bcf449aa7d376a07b5225, type: 3}
