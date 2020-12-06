@@ -19,6 +19,9 @@ public class LevelManager : MonoBehaviour
 
     public GameObject failPanel;
 
+    public GameObject tutorialMessagePanel;
+    private bool tutorial = false;
+
     private static int score;
     // time is current time, timetobeat is total time allowed for a level
     private static float time;
@@ -57,6 +60,20 @@ public class LevelManager : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Escape))
             TogglePause();
 
+        if (tutorial && Input.GetKeyDown(KeyCode.Return))
+        {
+            tutorial = false;
+
+            Time.timeScale = 1;
+
+            tutorialMessagePanel.SetActive(false);
+        }
+
+        if (GameObject.Find("TrickDisplay").GetComponent<Text>().text.Equals(""))
+            GameObject.Find("TrickDisplayPanel").GetComponent<Image>().enabled = false;
+        else
+            GameObject.Find("TrickDisplayPanel").GetComponent<Image>().enabled = true;
+
         // if player finished the level
         if (cleared)
         {
@@ -66,7 +83,7 @@ public class LevelManager : MonoBehaviour
         }
         else
         {
-            if (Time.timeScale != 1 && paused == false && failPanel.activeSelf == false)
+            if (Time.timeScale != 1 && paused == false && failPanel.activeSelf == false && tutorial == false)
                 Time.timeScale = 1;
 
             // advance time
@@ -131,5 +148,18 @@ public class LevelManager : MonoBehaviour
     {
         Time.timeScale = 0;
         failPanel.SetActive(true);
+    }
+
+    // method that handles tutorial messages (used only in tutorial level)
+    public void TutorialMessage(string message)
+    {
+        Debug.Log("made it");
+        
+        tutorial = true;
+
+        Time.timeScale = 0;
+        
+        tutorialMessagePanel.SetActive(true);
+        GameObject.Find("TutorialMessage").GetComponent<Text>().text = message;
     }
 }
