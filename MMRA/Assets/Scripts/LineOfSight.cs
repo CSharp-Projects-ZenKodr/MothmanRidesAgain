@@ -5,12 +5,10 @@ using UnityEngine;
 public class LineOfSight : MonoBehaviour
 {
     RaycastHit2D hit;
-    public Transform player;
     public EnemyAlert alert;
     // Start is called before the first frame update
     void Start()
     {
-        
     }
 
    
@@ -18,11 +16,12 @@ public class LineOfSight : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        hit = Physics2D.Raycast(transform.position, player.position - transform.position);
+      
     }
 
     void OnTriggerEnter2D(Collider2D other)
     {
+        hit = Physics2D.Raycast(transform.position, other.transform.position - transform.position);
         if (other.gameObject.tag == ("Player"))
         {
             if (hit.collider == other)
