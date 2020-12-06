@@ -21,8 +21,8 @@ public class EnemyPatrol : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        hit = Physics2D.Raycast(groundCheck.position, -transform.up, 1f, groundLayers);
-        
+        hit = Physics2D.Raycast(groundCheck.position, -transform.up, 2f, groundLayers);
+
     }
 
     private void FixedUpdate()
@@ -41,7 +41,7 @@ public class EnemyPatrol : MonoBehaviour
         else
         {
             isfacingRight = !isfacingRight;
-            transform.localScale = new Vector3(-transform.localScale.x, 2f, 1f);
+            transform.localScale = new Vector3(-transform.localScale.x, 1f, 1f);
         }
     }
 }
