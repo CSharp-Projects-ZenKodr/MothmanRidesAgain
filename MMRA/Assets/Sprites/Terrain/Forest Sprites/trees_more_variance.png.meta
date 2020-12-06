@@ -1,7 +1,64 @@
 fileFormatVersion: 2
 guid: d88f5876499485d43808e348cb2ae1e7
 TextureImporter:
-  internalIDToNameTable: []
+  internalIDToNameTable:
+  - first:
+      213: -7190764334340202311
+    second: trees_more_variance_0
+  - first:
+      213: 3323122976601101149
+    second: trees_more_variance_1
+  - first:
+      213: 3785163362977804129
+    second: trees_more_variance_2
+  - first:
+      213: 4121486132612796863
+    second: trees_more_variance_3
+  - first:
+      213: 6798860716554706294
+    second: trees_more_variance_4
+  - first:
+      213: 474587218695911554
+    second: trees_more_variance_5
+  - first:
+      213: -5015377686126238122
+    second: trees_more_variance_6
+  - first:
+      213: -1496467142868918803
+    second: trees_more_variance_7
+  - first:
+      213: -8292171016446833547
+    second: trees_more_variance_8
+  - first:
+      213: -9115691756471717313
+    second: trees_more_variance_9
+  - first:
+      213: 6119680417164075256
+    second: trees_more_variance_10
+  - first:
+      213: -1585856281973226313
+    second: trees_more_variance_11
+  - first:
+      213: 5777588135630426189
+    second: trees_more_variance_12
+  - first:
+      213: 6078494401138682386
+    second: trees_more_variance_13
+  - first:
+      213: -797342297372219052
+    second: trees_more_variance_14
+  - first:
+      213: -2836340411663008318
+    second: trees_more_variance_15
+  - first:
+      213: -5896447630373175736
+    second: trees_more_variance_16
+  - first:
+      213: 1740295602928999804
+    second: trees_more_variance_17
+  - first:
+      213: -227126988262360855
+    second: trees_more_variance_18
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -41,7 +98,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -73,9 +130,420 @@ TextureImporter:
     overridden: 0
     androidETC2FallbackOverride: 0
     forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: trees_more_variance_0
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 685
+        width: 159
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b0aa1cafe5453c90800000000000000
+      internalID: -7190764334340202311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trees_more_variance_1
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 685
+        width: 159
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d535f359dba1e1e20800000000000000
+      internalID: 3323122976601101149
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trees_more_variance_2
+      rect:
+        serializedVersion: 2
+        x: 368
+        y: 685
+        width: 159
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16f6d13260a978430800000000000000
+      internalID: 3785163362977804129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trees_more_variance_3
+      rect:
+        serializedVersion: 2
+        x: 547
+        y: 685
+        width: 166
+        height: 212
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb195111dc5723930800000000000000
+      internalID: 4121486132612796863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trees_more_variance_4
+      rect:
+        serializedVersion: 2
+        x: 733
+        y: 685
+        width: 166
+        height: 213
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67dd99fbcc76a5e50800000000000000
+      internalID: 6798860716554706294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trees_more_variance_5
+      rect:
+        serializedVersion: 2
+        x: 928
+        y: 687
+        width: 166
+        height: 212
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2887f499f82169600800000000000000
+      internalID: 474587218695911554
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trees_more_variance_6
+      rect:
+        serializedVersion: 2
+        x: 1134
+        y: 687
+        width: 166
+        height: 213
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 656660c219cc56ab0800000000000000
+      internalID: -5015377686126238122
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trees_more_variance_7
+      rect:
+        serializedVersion: 2
+        x: 1342
+        y: 684
+        width: 167
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ded114bef0b7b3be0800000000000000
+      internalID: -1496467142868918803
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trees_more_variance_8
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 437
+        width: 159
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 57c85e3f46a4cec80800000000000000
+      internalID: -8292171016446833547
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trees_more_variance_9
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 437
+        width: 159
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f32fb8df4ae8e7180800000000000000
+      internalID: -9115691756471717313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trees_more_variance_10
+      rect:
+        serializedVersion: 2
+        x: 381
+        y: 441
+        width: 166
+        height: 212
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f0aafb7ae87de450800000000000000
+      internalID: 6119680417164075256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trees_more_variance_11
+      rect:
+        serializedVersion: 2
+        x: 588
+        y: 437
+        width: 166
+        height: 212
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7b40a202d18edf9e0800000000000000
+      internalID: -1585856281973226313
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trees_more_variance_12
+      rect:
+        serializedVersion: 2
+        x: 826
+        y: 437
+        width: 167
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4053c26ccd1e2050800000000000000
+      internalID: 5777588135630426189
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trees_more_variance_13
+      rect:
+        serializedVersion: 2
+        x: 1342
+        y: 441
+        width: 167
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21a621dd3762b5450800000000000000
+      internalID: 6078494401138682386
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trees_more_variance_14
+      rect:
+        serializedVersion: 2
+        x: 23
+        y: 189
+        width: 159
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4592cb0b7654fe4f0800000000000000
+      internalID: -797342297372219052
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trees_more_variance_15
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 189
+        width: 159
+        height: 214
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2cdbdb45c6b43a8d0800000000000000
+      internalID: -2836340411663008318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trees_more_variance_16
+      rect:
+        serializedVersion: 2
+        x: 382
+        y: 189
+        width: 166
+        height: 212
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84eb9e2fe1c9b2ea0800000000000000
+      internalID: -5896447630373175736
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trees_more_variance_17
+      rect:
+        serializedVersion: 2
+        x: 588
+        y: 187
+        width: 166
+        height: 212
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7dd1c061a5c62810800000000000000
+      internalID: 1740295602928999804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: trees_more_variance_18
+      rect:
+        serializedVersion: 2
+        x: 826
+        y: 189
+        width: 167
+        height: 210
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9e8b7b1253519dcf0800000000000000
+      internalID: -227126988262360855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
     outline: []
     physicsShape: []
     bones: []
