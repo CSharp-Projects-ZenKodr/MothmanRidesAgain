@@ -1,34 +1,37 @@
 fileFormatVersion: 2
-guid: 4b370f662c0edb144a1b68abe09ef79c
+guid: 202e846f12ecc2842b4ed9ca537da667
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: 2572236292851511218
-    second: Trees_0
+      213: 5894625058950726700
+    second: forest_small_bg_sprites_0
   - first:
-      213: 6224024930817484846
-    second: Trees_1
+      213: -7558508994990850616
+    second: forest_small_bg_sprites_1
   - first:
-      213: -8911251428918342384
-    second: Trees_2
+      213: -6902330979668171549
+    second: forest_small_bg_sprites_2
   - first:
-      213: 2656247834339299217
-    second: Trees_3
+      213: -5000589637099320012
+    second: forest_small_bg_sprites_3
   - first:
-      213: -8876335399824902483
-    second: Trees_4
+      213: -7275305324671626606
+    second: forest_small_bg_sprites_4
   - first:
-      213: 5891757792927052577
-    second: Trees_5
+      213: 183125448006677339
+    second: forest_small_bg_sprites_5
   - first:
-      213: -4324799369507234631
-    second: Trees_6
+      213: -6217275727744492464
+    second: forest_small_bg_sprites_6
   - first:
-      213: 759678483730449176
-    second: Trees_7
+      213: 469697053922465335
+    second: forest_small_bg_sprites_7
   - first:
-      213: 7748518322702929914
-    second: Trees_8
+      213: -4945097353987093706
+    second: forest_small_bg_sprites_8
+  - first:
+      213: -8160543829911956038
+    second: forest_small_bg_sprites_9
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -73,7 +76,7 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
+  spritePixelsToUnits: 22
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
@@ -116,13 +119,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Trees_0
+      name: forest_small_bg_sprites_0
       rect:
         serializedVersion: 2
-        x: 14
-        y: 685
-        width: 159
-        height: 214
+        x: 0
+        y: 122
+        width: 40
+        height: 33
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -130,20 +133,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2bf28c1b74b62b320800000000000000
-      internalID: 2572236292851511218
+      spriteID: c24cfd2924aedc150800000000000000
+      internalID: 5894625058950726700
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Trees_1
+      name: forest_small_bg_sprites_1
       rect:
         serializedVersion: 2
-        x: 191
-        y: 685
-        width: 159
-        height: 214
+        x: 42
+        y: 80
+        width: 99
+        height: 73
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -151,20 +154,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e282d82c2bd206650800000000000000
-      internalID: 6224024930817484846
+      spriteID: 8cdb9f1ad18ca1790800000000000000
+      internalID: -7558508994990850616
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Trees_2
+      name: forest_small_bg_sprites_2
       rect:
         serializedVersion: 2
-        x: 368
-        y: 685
-        width: 159
-        height: 214
+        x: 157
+        y: 122
+        width: 40
+        height: 33
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -172,20 +175,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 01d412b0a00e45480800000000000000
-      internalID: -8911251428918342384
+      spriteID: 3e464ba4b8ef530a0800000000000000
+      internalID: -6902330979668171549
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Trees_3
+      name: forest_small_bg_sprites_3
       rect:
         serializedVersion: 2
-        x: 547
-        y: 638
-        width: 166
-        height: 259
+        x: 239
+        y: 122
+        width: 40
+        height: 33
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -193,20 +196,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 19fc139f453ecd420800000000000000
-      internalID: 2656247834339299217
+      spriteID: 43d023528365a9ab0800000000000000
+      internalID: -5000589637099320012
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Trees_4
+      name: forest_small_bg_sprites_4
       rect:
         serializedVersion: 2
-        x: 733
-        y: 685
-        width: 166
-        height: 213
+        x: 329
+        y: 122
+        width: 40
+        height: 33
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -214,20 +217,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: da636329bfbe0d480800000000000000
-      internalID: -8876335399824902483
+      spriteID: 292907a7a5ce80b90800000000000000
+      internalID: -7275305324671626606
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Trees_5
+      name: forest_small_bg_sprites_5
       rect:
         serializedVersion: 2
-        x: 928
-        y: 687
-        width: 166
-        height: 212
+        x: 0
+        y: 80
+        width: 40
+        height: 40
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -235,20 +238,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 1237e0e2f7ab3c150800000000000000
-      internalID: 5891757792927052577
+      spriteID: b53b5cdef979a8200800000000000000
+      internalID: 183125448006677339
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Trees_6
+      name: forest_small_bg_sprites_6
       rect:
         serializedVersion: 2
-        x: 1134
-        y: 687
-        width: 166
-        height: 213
+        x: 157
+        y: 80
+        width: 40
+        height: 40
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -256,20 +259,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9bc10bf13e93bf3c0800000000000000
-      internalID: -4324799369507234631
+      spriteID: 05c91298aacc7b9a0800000000000000
+      internalID: -6217275727744492464
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Trees_7
+      name: forest_small_bg_sprites_7
       rect:
         serializedVersion: 2
-        x: 1342
-        y: 684
-        width: 167
-        height: 210
+        x: 239
+        y: 80
+        width: 40
+        height: 40
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -277,20 +280,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 813c2465e8bea8a00800000000000000
-      internalID: 759678483730449176
+      spriteID: 73698136bf2b48600800000000000000
+      internalID: 469697053922465335
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Trees_8
+      name: forest_small_bg_sprites_8
       rect:
         serializedVersion: 2
-        x: 1342
-        y: 441
-        width: 167
-        height: 210
+        x: 329
+        y: 80
+        width: 40
+        height: 40
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -298,8 +301,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: aff40507c54488b60800000000000000
-      internalID: 7748518322702929914
+      spriteID: 63b00e3282c7f5bb0800000000000000
+      internalID: -4945097353987093706
       vertices: []
       indices: 
       edges: []
