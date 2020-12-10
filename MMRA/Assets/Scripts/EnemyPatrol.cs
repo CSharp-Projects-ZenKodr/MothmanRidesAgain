@@ -12,7 +12,8 @@ public class EnemyPatrol : MonoBehaviour
     public Transform groundCheck;
     bool isfacingRight = true;
 
-    RaycastHit2D hit;
+    float previousPosition;
+    RaycastHit2D down;
     void Start()
     {
         
@@ -21,13 +22,13 @@ public class EnemyPatrol : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        hit = Physics2D.Raycast(groundCheck.position, -transform.up, 2f, groundLayers);
+        down = Physics2D.Raycast(groundCheck.position, -transform.up, 2f, groundLayers);
 
     }
 
     private void FixedUpdate()
     {
-        if (hit.collider != false)
+        if (down.collider != false)
         {
             if (isfacingRight)
             {
@@ -43,5 +44,24 @@ public class EnemyPatrol : MonoBehaviour
             isfacingRight = !isfacingRight;
             transform.localScale = new Vector3(-transform.localScale.x, 1f, 1f);
         }
+
+        if(transform.position.x == previousPosition)
+        {
+            if (isfacingRight)
+            {
+                transform.SetPositionAndRotation(new Vector3(transform.position.x-1, transform.position.y, transform.position.z),Quaternion.Euler(new Vector3(0,0,0)));
+            }
+            else
+            {
+                transform.SetPositionAndRotation(new Vector3(transform.position.x + 1, transform.position.y, transform.position.z), Quaternion.Euler(new Vector3(0, 0, 0)));
+
+            }
+            isfacingRight = !isfacingRight;
+            transform.localScale = new Vector3(-transform.localScale.x, 1f, 1f);
+            
+        }
+        previousPosition = transform.position.x;
+
+
     }
 }
