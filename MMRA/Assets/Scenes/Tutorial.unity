@@ -2271,7 +2271,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   respawnPoint: {fileID: 1039793544}
-  playerPrefab: {fileID: 6454116341405093313, guid: 9a13536f6a7bcf449aa7d376a07b5225, type: 3}
+  player: {fileID: 1047996894}
   pausePanel: {fileID: 3715762}
   clearPanel: {fileID: 108065843}
   failPanel: {fileID: 163627923}
@@ -17844,6 +17844,11 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &1047996894 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6454116341405093313, guid: 9a13536f6a7bcf449aa7d376a07b5225, type: 3}
+  m_PrefabInstance: {fileID: 38158311}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1063172196
 GameObject:
   m_ObjectHideFlags: 0

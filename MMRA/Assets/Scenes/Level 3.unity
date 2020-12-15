@@ -549,7 +549,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   respawnPoint: {fileID: 219000233}
-  playerPrefab: {fileID: 6454116341405093313, guid: 9a13536f6a7bcf449aa7d376a07b5225, type: 3}
+  player: {fileID: 1267356346}
   pausePanel: {fileID: 370170303}
   clearPanel: {fileID: 895605745}
   failPanel: {fileID: 1176903718}
@@ -4707,6 +4707,11 @@ PrefabInstance:
 --- !u!4 &1267356345 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 6454116340626919572, guid: 9a13536f6a7bcf449aa7d376a07b5225, type: 3}
+  m_PrefabInstance: {fileID: 1267356344}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1267356346 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6454116341405093313, guid: 9a13536f6a7bcf449aa7d376a07b5225, type: 3}
   m_PrefabInstance: {fileID: 1267356344}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &1283281383

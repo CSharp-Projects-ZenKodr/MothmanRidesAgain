@@ -72,7 +72,6 @@ public class PlayerMovment : MonoBehaviour
             }
         }
 
-        anim.SetBool("isCrashed", isCrashed());
         anim.SetBool("isGrounded", isGrounded());
 
         inputX = Input.GetAxisRaw("Horizontal");
@@ -112,11 +111,4 @@ public class PlayerMovment : MonoBehaviour
             return false;
     }
 
-    private bool isCrashed()
-    {
-        if (PlayerDeath.instance.crash == true)
-            return true;
-        else
-            return false;
-    }
 }

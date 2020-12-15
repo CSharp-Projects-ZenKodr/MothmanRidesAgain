@@ -9,7 +9,7 @@ public class LevelManager : MonoBehaviour
     public static LevelManager instance;
 
     public Transform respawnPoint;
-    public GameObject playerPrefab;
+    public GameObject player;
 
     public GameObject pausePanel;
     private bool paused = false;
@@ -43,13 +43,19 @@ public class LevelManager : MonoBehaviour
     public void Respawn()
     {
         Debug.Log("Respawn Called");
-        
-        GameObject player = Instantiate(playerPrefab, respawnPoint.position, Quaternion.identity);
+
+        //GameObject player = Instantiate(playerPrefab, respawnPoint.position, Quaternion.identity);
+        //cam.Follow = player.transform;
+        //// Respawning sometimes disables different components, this fixes it:
+        //player.GetComponentInChildren<PlayerMovment>().enabled = true;
+        //player.GetComponentInChildren<Animator>().enabled = true;
+        //player.GetComponentInChildren<CircleCollider2D>().enabled = true;
+
+        player.transform.position = respawnPoint.position;
+        player.GetComponent<Rigidbody2D>().velocity = new Vector2(0, 0);
+
         cam.Follow = player.transform;
-        // Respawning sometimes disables different components, this fixes it:
-        player.GetComponentInChildren<PlayerMovment>().enabled = true;
-        player.GetComponentInChildren<Animator>().enabled = true;
-        player.GetComponentInChildren<CircleCollider2D>().enabled = true;
+
         PlayerDeath.instance.crash = false;
 
         Debug.Log("Respawned");

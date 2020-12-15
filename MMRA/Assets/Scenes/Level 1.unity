@@ -16240,7 +16240,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   respawnPoint: {fileID: 862861515}
-  playerPrefab: {fileID: 6454116341405093313, guid: 9a13536f6a7bcf449aa7d376a07b5225, type: 3}
+  player: {fileID: 6454116340068605252}
   pausePanel: {fileID: 851486093}
   clearPanel: {fileID: 205340412}
   failPanel: {fileID: 2084555198}
@@ -17117,3 +17117,8 @@ PrefabInstance:
     m_RemovedComponents:
     - {fileID: 474062856, guid: 9a13536f6a7bcf449aa7d376a07b5225, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: 9a13536f6a7bcf449aa7d376a07b5225, type: 3}
+--- !u!1 &6454116340068605252 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 6454116341405093313, guid: 9a13536f6a7bcf449aa7d376a07b5225, type: 3}
+  m_PrefabInstance: {fileID: 6454116340068605251}
+  m_PrefabAsset: {fileID: 0}
